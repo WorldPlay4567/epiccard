@@ -1,0 +1,24 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "epiccard:item/card",
+		"particle": "epiccard:item/card"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 0],
+			"to": [14, 1, 20],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 5.25, 3.25, 5.5], "texture": "#0"},
+				"east": {"uv": [0, 5, 5, 5.25], "texture": "#0"},
+				"south": {"uv": [3.25, 5.25, 6.5, 5.5], "texture": "#0"},
+				"west": {"uv": [5, 5, 10, 5.25], "texture": "#0"},
+				"up": {"uv": [3.25, 5, 0, 0], "texture": "#0"},
+				"down": {"uv": [6.5, 0, 3.25, 5], "texture": "#0"}
+			}
+		}
+	]
+}
